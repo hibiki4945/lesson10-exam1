@@ -1,1 +1,13 @@
-/*# sourceMappingURL=main.css.map */
+*, *::before, *::after {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #624c4c;
+}/*# sourceMappingURL=main.css.map */
