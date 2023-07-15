@@ -9,5 +9,48 @@ body {
   margin: auto;
   justify-content: center;
   align-items: center;
-  background-color: #624c4c;
+  background-color: #afdde9;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.container .Area {
+  font-size: 40px;
+}
+.container .Weather {
+  font-size: 20px;
+}
+.container .Temperature {
+  font-size: 30px;
+  margin-left: 40px;
+}
+.container .cardArea .card {
+  width: 290px;
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px black;
+}
+.container .cardArea .card .left {
+  display: flex;
+  align-items: end;
+}
+.container .cardArea .card .left .Weather {
+  width: 120px;
+}
+.container .cardArea .card .left i {
+  font-size: 30px;
+}
+.container .middleArea {
+  width: 350px;
+  height: 450px;
+  margin: 0 5px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Northern_Taiwan_official_determined.svg/330px-Northern_Taiwan_official_determined.svg.png);
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */

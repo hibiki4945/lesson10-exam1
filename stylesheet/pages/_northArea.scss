@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    // margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+    .Area{
+        font-size: 40px;
+    }
+    .Weather{
+        font-size: 20px;
+    }
+    .Temperature{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+
+    .cardArea{
+        .card{
+            width: 290px;
+            margin-bottom: 15px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 3px 3px 4px black;
+            .left{
+                display: flex;
+                align-items: end;
+                .Weather{
+                    width: 120px;
+                }
+                i{
+                    font-size: 30px;
+                }
+            }
+
+        }
+
+    }
+    .middleArea{
+        width: 350px;
+        height: 450px;
+        margin: 0 5px;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Northern_Taiwan_official_determined.svg/330px-Northern_Taiwan_official_determined.svg.png);
+        background-repeat: no-repeat;
+    }
+}
