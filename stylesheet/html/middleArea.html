@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <!-- .container>.leftArea+.middleArea+.rightArea -->
+    <div class="container" id="middle">
+        <div class="cardArea">
+            <!-- (.card>.left>label{地區}+label{天氣}+p{最低溫 - 最高溫 度C}^icon)*4 -->
+            <div class="card">
+                <div class="left">
+                    <label for="" class="Area" id="Area2Area"></label>
+                    <label for="" class="Weather" id="Area2Weather"></label>
+                    <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area2Icon"></i>
+                </div>    
+                <p class="Temperature" id="Area2Temperature"></p>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <label for="" class="Area" id="Area11Area"></label>
+                    <label for="" class="Weather" id="Area11Weather"></label>
+                    <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area11Icon"></i>
+                </div>
+                <p class="Temperature" id="Area11Temperature"></p>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <label for="" class="Area" id="Area20Area"></label>
+                    <label for="" class="Weather" id="Area20Weather"></label>
+                    <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area20Icon"></i>
+                </div>    
+                <p class="Temperature" id="Area20Temperature"></p>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <label for="" class="Area" id="Area14Area"></label>
+                    <label for="" class="Weather" id="Area14Weather"></label>
+                    <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area14Icon"></i>
+                </div>    
+                <p class="Temperature" id="Area14Temperature"></p>   
+            </div>
+        </div>
+        <div class="middleArea Middle"></div>
+        <div class="cardArea">
+            <div class="card">
+                <div class="left">
+                    <label for="" class="Area" id="Area9Area"></label>
+                    <label for="" class="Weather" id="Area9Weather"></label>
+                    <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area9Icon"></i>
+                </div>    
+                <p class="Temperature" id="Area9Temperature"></p> 
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/middleArea.js"></script>
+</body>
+</html>

@@ -12,7 +12,17 @@ body {
   background-color: #afdde9;
 }
 
+.Middle {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Central_Taiwan_official_determined.svg/375px-Central_Taiwan_official_determined.svg.png);
+}
+
 .container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -31,7 +41,7 @@ body {
   margin-left: 40px;
 }
 .container .cardArea .card {
-  width: 290px;
+  width: 320px;
   margin-bottom: 15px;
   background-color: white;
   border-radius: 10px;
@@ -42,15 +52,18 @@ body {
   align-items: end;
 }
 .container .cardArea .card .left .Weather {
-  width: 120px;
+  width: 160px;
 }
 .container .cardArea .card .left i {
   font-size: 30px;
+}
+.container .North {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Northern_Taiwan_official_determined.svg/330px-Northern_Taiwan_official_determined.svg.png);
 }
 .container .middleArea {
   width: 350px;
   height: 450px;
   margin: 0 5px;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Northern_Taiwan_official_determined.svg/330px-Northern_Taiwan_official_determined.svg.png);
+  background-size: contain;
   background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */

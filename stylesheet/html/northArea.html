@@ -9,73 +9,74 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <!-- .container>.leftArea+.middleArea+.rightArea -->
-    <div class="container">
-        <div class="cardArea">
-            <!-- (.card>.left>label{地區}+label{天氣}+p{最低溫 - 最高溫 度C}^icon)*4 -->
-            <div class="card">
-                <div class="left">
-                    <label for="" class="Area" id="Area18Area">地區</label>
-                    <label for="" class="Weather" id="Area18Weather">天氣</label>
-                    <i class="fa-solid fa-sun fa-beat" id="Area18Icon"></i>
-                </div>    
-                <p class="Temperature" id="Area18Temperature">最低溫 - 最高溫 度C</p>
-            </div>
-            <div class="card">
-                <div class="left">
-                    <label for="" class="Area" id="Area7Area">地區</label>
-                    <label for="" class="Weather" id="Area7Weather">天氣</label>
-                    <i class="fa-solid fa-sun fa-beat" id="Area7Icon"></i>
+    <div class="container" id="north">
+        <!-- <transition> -->
+            <div class="cardArea">
+                <div class="card">
+                    <div class="left">
+                        <label for="" class="Area" id="Area18Area"></label>
+                        <label for="" class="Weather" id="Area18Weather"></label>
+                        <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area18Icon"></i>
+                    </div>    
+                    <p class="Temperature" id="Area18Temperature"></p>
                 </div>
-                <p class="Temperature" id="Area7Temperature">最低溫 - 最高溫 度C</p>
+                <div class="card">
+                    <div class="left">
+                        <label for="" class="Area" id="Area7Area"></label>
+                        <label for="" class="Weather" id="Area7Weather"></label>
+                        <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area7Icon"></i>
+                    </div>
+                    <p class="Temperature" id="Area7Temperature"></p>
+                </div>
+                <div class="card">
+                    <div class="left">
+                        <label for="" class="Area" id="Area5Area"></label>
+                        <label for="" class="Weather" id="Area5Weather"></label>
+                        <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area5Icon"></i>
+                    </div>    
+                    <p class="Temperature" id="Area5Temperature"></p>
+                </div>
+                <div class="card">
+                    <div class="left">
+                        <label for="" class="Area" id="Area1Area"></label>
+                        <label for="" class="Weather" id="Area1Weather"></label>
+                        <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area1Icon"></i>
+                    </div>    
+                    <p class="Temperature" id="Area1Temperature"></p>   
+                </div>
             </div>
-            <div class="card">
-                <div class="left">
-                    <label for="" class="Area" id="Area5Area">地區</label>
-                    <label for="" class="Weather" id="Area5Weather">天氣</label>
-                    <i class="fa-solid fa-sun fa-beat" id="Area5Icon"></i>
-                </div>    
-                <p class="Temperature" id="Area5Temperature">最低溫 - 最高溫 度C</p>
+            <div class="middleArea North"></div>
+            <div class="cardArea">
+                <div class="card">
+                    <div class="left">
+                        <label for="" class="Area" id="Area13Area"></label>
+                        <label for="" class="Weather" id="Area13Weather"></label>
+                        <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area13Icon"></i>
+                    </div>    
+                    <p class="Temperature" id="Area13Temperature"></p> 
+                </div>
+                <div class="card">
+                    <div class="left">
+                        <label for="" class="Area" id="Area3Area"></label>
+                        <label for="" class="Weather" id="Area3Weather"></label>
+                        <i class="fa-solid fa-sun fa-beat" id="Area3Icon"></i>
+                    </div>    
+                    <p class="Temperature" id="Area3Temperature"></p> 
+                </div>
+                <div class="card">
+                    <div class="left">
+                        <label for="" class="Area" id="Area4Area"></label>
+                        <label for="" class="Weather" id="Area4Weather"></label>
+                        <i class="fa-solid fa-arrow-rotate-left fa-spin fa-spin-reverse fa-2xl" id="Area4Icon"></i>
+                    </div>    
+                    <p class="Temperature" id="Area4Temperature"></p>
+                </div>
             </div>
-            <div class="card">
-                <div class="left">
-                    <label for="" class="Area" id="Area1Area">地區</label>
-                    <label for="" class="Weather" id="Area1Weather">天氣</label>
-                    <i class="fa-solid fa-sun fa-beat" id="Area1Icon"></i>
-                </div>    
-                <p class="Temperature" id="Area1Temperature">最低溫 - 最高溫 度C</p>   
-            </div>
-        </div>
-        <div class="middleArea"></div>
-        <div class="cardArea">
-            <div class="card">
-                <div class="left">
-                    <label for="" class="Area" id="Area13Area">地區</label>
-                    <label for="" class="Weather" id="Area13Weather">天氣</label>
-                    <i class="fa-solid fa-sun fa-beat" id="Area13Icon"></i>
-                </div>    
-                <p class="Temperature" id="Area13Temperature">最低溫 - 最高溫 度C</p> 
-            </div>
-            <div class="card">
-                <div class="left">
-                    <label for="" class="Area" id="Area3Area">地區</label>
-                    <label for="" class="Weather" id="Area3Weather">天氣</label>
-                    <i class="fa-solid fa-sun fa-beat" id="Area3Icon"></i>
-                </div>    
-                <p class="Temperature" id="Area3Temperature">最低溫 - 最高溫 度C</p> 
-            </div>
-            <div class="card">
-                <div class="left">
-                    <label for="" class="Area" id="Area4Area">地區</label>
-                    <label for="" class="Weather" id="Area4Weather">天氣</label>
-                    <i class="fa-solid fa-sun fa-beat" id="Area4Icon"></i>
-                </div>    
-                <p class="Temperature" id="Area4Temperature">最低溫 - 最高溫 度C</p>
-            </div>
-        </div>
+        <!-- </transition> -->
     </div>
 
 
-    <script src="../js/north.js"></script>
+    <script src="../js/northArea.js"></script>
+    <!-- <script src="../../main.js"></script> -->
 </body>
 </html>
