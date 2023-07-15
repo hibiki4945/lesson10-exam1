@@ -41,7 +41,7 @@ body {
   margin-left: 40px;
 }
 .container .cardArea .card {
-  width: 320px;
+  width: 340px;
   margin-bottom: 15px;
   background-color: white;
   border-radius: 10px;
@@ -52,7 +52,7 @@ body {
   align-items: end;
 }
 .container .cardArea .card .left .Weather {
-  width: 160px;
+  width: 170px;
 }
 .container .cardArea .card .left i {
   font-size: 30px;
